@@ -164,14 +164,23 @@ public class CEOXmlDocCreator {
 
     private static void appendJuniorDev(JuniorDeveloper juniorDev, Element parentElement, Document document) {
         appendEmployeeElements(juniorDev, parentElement, document);
+        Element elementEfficiency = document.createElement(EmployeeXmlTag.EFFICIENCY.getValue());
+        elementEfficiency.appendChild(document.createTextNode(Integer.toString(juniorDev.getEfficiency())));
+        parentElement.appendChild(elementEfficiency);
     }
 
     private static void appendMiddleDev(MiddleDeveloper middleDev, Element parentElement, Document document) {
         appendEmployeeElements(middleDev, parentElement, document);
+        Element elementEfficiency = document.createElement(EmployeeXmlTag.EFFICIENCY.getValue());
+        elementEfficiency.appendChild(document.createTextNode(Integer.toString(middleDev.getEfficiency())));
+        parentElement.appendChild(elementEfficiency);
     }
 
     private static void appendSeniorDev(SeniorDeveloper seniorDev, Element parentElement, Document document) {
         appendEmployeeElements(seniorDev, parentElement, document);
+        Element elementEfficiency = document.createElement(EmployeeXmlTag.EFFICIENCY.getValue());
+        elementEfficiency.appendChild(document.createTextNode(Integer.toString(seniorDev.getEfficiency())));
+        parentElement.appendChild(elementEfficiency);
     }
 
     private static void appendTester(Tester tester, Element parentElement, Document document) {

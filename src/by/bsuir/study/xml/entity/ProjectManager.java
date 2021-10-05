@@ -3,6 +3,9 @@ package by.bsuir.study.xml.entity;
 public class ProjectManager extends Employee {
     private SoftwareArchitect softwareArchitect;
 
+    public ProjectManager() {
+    }
+
     public ProjectManager(SoftwareArchitect softwareArchitect) {
         this.softwareArchitect = softwareArchitect;
     }
