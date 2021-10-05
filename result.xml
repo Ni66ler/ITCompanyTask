@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ceo>
-    <name>olya</name>
-    <contact_number>9999</contact_number>
-    <email>oly@</email>
-    <work_experience>24</work_experience>
-    <overall_strategy>destroy everyone on the market</overall_strategy>
-    <cto>
-        <name>anton</name>
-        <contact_number>8888</contact_number>
-        <email>@nton</email>
-        <work_experience>20</work_experience>
-        <company_resources>100</company_resources>
-        <project_managers>
-            <project_manager>
-                <name>dima</name><contact_number>7777</contact_number><email>dim@</email><work_experience>20</work_experience><software_architect><name>vlad</name><contact_number>6666</contact_number><email>vl@d</email><work_experience>12</work_experience><team_leaders><team_leader><name>ivan</name><contact_number>44444</contact_number><email>iv@n</email><work_experience>10</work_experience><junior_developers><junior_developer><name>vanya</name><contact_number>374499</contact_number><email>vany@</email><work_experience>8</work_experience></junior_developer></junior_developers><middle_developers><middle_developer><name>roma</name><contact_number>343243</contact_number><email>rom@</email><work_experience>2</work_experience></middle_developer></middle_developers><senior_developers><senior_developer><name>ilya</name><contact_number>33333</contact_number><email>ily@</email><work_experience>15</work_experience></senior_developer></senior_developers></team_leader></team_leaders><testers><tester><name>daniil</name><contact_number>5555</contact_number><email>d@niil</email><work_experience>10</work_experience></tester></testers></software_architect></project_manager></project_managers></cto></ceo>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ceo><name>olya</name><contact_number>9999</contact_number><email>oly@</email><work_experience>24</work_experience><overall_strategy>destroy everyone on the market</overall_strategy><cto><name>anton</name><contact_number>8888</contact_number><email>@nton</email><work_experience>20</work_experience><company_resources>100</company_resources><project_managers><project_manager><name>dima</name><contact_number>7777</contact_number><email>dim@</email><work_experience>20</work_experience><software_architect><name>vlad</name><contact_number>6666</contact_number><email>vl@d</email><work_experience>12</work_experience><team_leaders><team_leader><name>ivan</name><contact_number>44444</contact_number><email>iv@n</email><work_experience>10</work_experience><junior_developers><junior_developer><name>vanya</name><contact_number>374499</contact_number><email>vany@</email><work_experience>8</work_experience><efficiency>10</efficiency></junior_developer></junior_developers><middle_developers><middle_developer><name>roma</name><contact_number>343243</contact_number><email>rom@</email><work_experience>2</work_experience><efficiency>1</efficiency></middle_developer></middle_developers><senior_developers><senior_developer><name>ilya</name><contact_number>33333</contact_number><email>ily@</email><work_experience>15</work_experience><efficiency>20</efficiency></senior_developer></senior_developers></team_leader></team_leaders><testers><tester><name>daniil</name><contact_number>5555</contact_number><email>d@niil</email><work_experience>10</work_experience></tester></testers></software_architect></project_manager></project_managers></cto></ceo>

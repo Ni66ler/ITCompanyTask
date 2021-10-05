@@ -3,7 +3,9 @@ package by.bsuir.study.xml.entity;
 public abstract class Developer extends Employee{
     private int efficiency;
 
-    public Developer(){}
+    public Developer(){
+
+    }
 
     public Developer(int efficiency) {
         this.efficiency = efficiency;

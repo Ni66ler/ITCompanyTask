@@ -35,9 +35,7 @@ public class CEOXmlParser {
         Document document;
         try {
             document = docBuilder.parse(path);
-            Element root = document.getDocumentElement();
-            Element ceoElement = (Element) root.getElementsByTagName(EmployeeXmlTag.CEO.getValue()).item(0);
-            CEO ceo = new CEO();
+            Element ceoElement = document.getDocumentElement();
             buildEmployee(ceo, ceoElement);
             ceo.setOverallStrategy(getElementTextContent(ceoElement, EmployeeXmlTag.OVERALL_STRATEGY.getValue()));
             Element ctoElement = (Element) ceoElement.getElementsByTagName(EmployeeXmlTag.CTO.getValue()).item(0);
@@ -47,6 +45,8 @@ public class CEOXmlParser {
         } catch (IOException | SAXException e) {
             e.printStackTrace();
         }
+
+
     }
 
     private void buildEmployee(Employee employee, Element element) {
